@@ -1,0 +1,53 @@
+HELP.md
+.DS_Store
+logs/
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+src/main/java/com/wexl/retail/StandaloneRunner.java
+src/main/java/com/wexl/retail/GenerateJwtTest.java
+src/main/resources/application-dev.yaml
+src/main/resources/application-prod.yaml
+src/main/resources/*.csv
+application/src/main/java/com/wexl/retail/Ams.java
+application/src/main/java/com/wexl/retail/RetailAdmin.java
+application/src/main/resources/application-prod.yaml
+### Window OS & Eclipse ###
+.bin
+.temp-retail-service**
+.checkstyle
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+.ideaDataSources
+dataSources
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+/bin/
+src/main/java/com/wexl/retail/Main.java
+src/main/java/com/wexl/retail/Ams.java
+
